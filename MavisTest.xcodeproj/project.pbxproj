@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		102C689C26C5C4DE007463B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102C689B26C5C4DE007463B8 /* AppDelegate.swift */; };
+		102C689E26C5C4DE007463B8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102C689D26C5C4DE007463B8 /* SceneDelegate.swift */; };
+		102C68A026C5C4DE007463B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102C689F26C5C4DE007463B8 /* ViewController.swift */; };
+		102C68A326C5C4DE007463B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 102C68A126C5C4DE007463B8 /* Main.storyboard */; };
+		102C68A526C5C4DF007463B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 102C68A426C5C4DF007463B8 /* Assets.xcassets */; };
+		102C68A826C5C4DF007463B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 102C68A626C5C4DF007463B8 /* LaunchScreen.storyboard */; };
+		102C68B126C5C569007463B8 /* CustomMavisEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102C68B026C5C569007463B8 /* CustomMavisEventHandler.swift */; };
+		5B356B7926F4C9120033D4C5 /* Pods_MavisTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA85213D4F61F6E1E2F4F59B /* Pods_MavisTest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		029528FA8AC6CDE00D5F9832 /* Pods-MavisTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MavisTest.release.xcconfig"; path = "Target Support Files/Pods-MavisTest/Pods-MavisTest.release.xcconfig"; sourceTree = "<group>"; };
+		0F7E53687AC7F2D2313B2EDF /* Pods-MavisTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MavisTest.debug.xcconfig"; path = "Target Support Files/Pods-MavisTest/Pods-MavisTest.debug.xcconfig"; sourceTree = "<group>"; };
+		102C689826C5C4DE007463B8 /* MavisTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MavisTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		102C689B26C5C4DE007463B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		102C689D26C5C4DE007463B8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		102C689F26C5C4DE007463B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		102C68A226C5C4DE007463B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		102C68A426C5C4DF007463B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		102C68A726C5C4DF007463B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		102C68A926C5C4DF007463B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		102C68B026C5C569007463B8 /* CustomMavisEventHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomMavisEventHandler.swift; sourceTree = "<group>"; };
+		CA85213D4F61F6E1E2F4F59B /* Pods_MavisTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MavisTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		102C689526C5C4DE007463B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B356B7926F4C9120033D4C5 /* Pods_MavisTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		102C688F26C5C4DE007463B8 = {
+			isa = PBXGroup;
+			children = (
+				102C689A26C5C4DE007463B8 /* MavisTest */,
+				102C689926C5C4DE007463B8 /* Products */,
+				9F7AC078F1813B63A00F3176 /* Pods */,
+				A95CCEAF3DE039474390CBF1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		102C689926C5C4DE007463B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				102C689826C5C4DE007463B8 /* MavisTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		102C689A26C5C4DE007463B8 /* MavisTest */ = {
+			isa = PBXGroup;
+			children = (
+				102C689B26C5C4DE007463B8 /* AppDelegate.swift */,
+				102C689D26C5C4DE007463B8 /* SceneDelegate.swift */,
+				102C689F26C5C4DE007463B8 /* ViewController.swift */,
+				102C68A126C5C4DE007463B8 /* Main.storyboard */,
+				102C68A426C5C4DF007463B8 /* Assets.xcassets */,
+				102C68A626C5C4DF007463B8 /* LaunchScreen.storyboard */,
+				102C68A926C5C4DF007463B8 /* Info.plist */,
+				102C68B026C5C569007463B8 /* CustomMavisEventHandler.swift */,
+			);
+			path = MavisTest;
+			sourceTree = "<group>";
+		};
+		9F7AC078F1813B63A00F3176 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F7E53687AC7F2D2313B2EDF /* Pods-MavisTest.debug.xcconfig */,
+				029528FA8AC6CDE00D5F9832 /* Pods-MavisTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A95CCEAF3DE039474390CBF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA85213D4F61F6E1E2F4F59B /* Pods_MavisTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		102C689726C5C4DE007463B8 /* MavisTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 102C68AC26C5C4DF007463B8 /* Build configuration list for PBXNativeTarget "MavisTest" */;
+			buildPhases = (
+				D37CA08441541B724C44EE44 /* [CP] Check Pods Manifest.lock */,
+				102C689426C5C4DE007463B8 /* Sources */,
+				102C689526C5C4DE007463B8 /* Frameworks */,
+				102C689626C5C4DE007463B8 /* Resources */,
+				1575FB9DEA1610476F011BFD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MavisTest;
+			productName = MavisTest;
+			productReference = 102C689826C5C4DE007463B8 /* MavisTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		102C689026C5C4DE007463B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					102C689726C5C4DE007463B8 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 102C689326C5C4DE007463B8 /* Build configuration list for PBXProject "MavisTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 102C688F26C5C4DE007463B8;
+			productRefGroup = 102C689926C5C4DE007463B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				102C689726C5C4DE007463B8 /* MavisTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		102C689626C5C4DE007463B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				102C68A826C5C4DF007463B8 /* LaunchScreen.storyboard in Resources */,
+				102C68A526C5C4DF007463B8 /* Assets.xcassets in Resources */,
+				102C68A326C5C4DE007463B8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1575FB9DEA1610476F011BFD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MavisTest/Pods-MavisTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MavisTest/Pods-MavisTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MavisTest/Pods-MavisTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D37CA08441541B724C44EE44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MavisTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		102C689426C5C4DE007463B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				102C68A026C5C4DE007463B8 /* ViewController.swift in Sources */,
+				102C689C26C5C4DE007463B8 /* AppDelegate.swift in Sources */,
+				102C689E26C5C4DE007463B8 /* SceneDelegate.swift in Sources */,
+				102C68B126C5C569007463B8 /* CustomMavisEventHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		102C68A126C5C4DE007463B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				102C68A226C5C4DE007463B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		102C68A626C5C4DF007463B8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				102C68A726C5C4DF007463B8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		102C68AA26C5C4DF007463B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				EXCLUDED_ARCHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		102C68AB26C5C4DF007463B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		102C68AD26C5C4DF007463B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F7E53687AC7F2D2313B2EDF /* Pods-MavisTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3B43C3JBY7;
+				ENABLE_BITCODE = YES;
+				INFOPLIST_FILE = MavisTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ge.bog.mobilebank2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		102C68AE26C5C4DF007463B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 029528FA8AC6CDE00D5F9832 /* Pods-MavisTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3B43C3JBY7;
+				ENABLE_BITCODE = YES;
+				INFOPLIST_FILE = MavisTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ge.bog.mobilebank2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		102C689326C5C4DE007463B8 /* Build configuration list for PBXProject "MavisTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				102C68AA26C5C4DF007463B8 /* Debug */,
+				102C68AB26C5C4DF007463B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		102C68AC26C5C4DF007463B8 /* Build configuration list for PBXNativeTarget "MavisTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				102C68AD26C5C4DF007463B8 /* Debug */,
+				102C68AE26C5C4DF007463B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 102C689026C5C4DE007463B8 /* Project object */;
+}

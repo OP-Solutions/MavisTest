@@ -1,0 +1,22 @@
+PODS:
+  - MavisSDK (2.0.0)
+
+DEPENDENCIES:
+  - MavisSDK (from `https://github.com/OP-Solutions/Mavis-IOS-SDK.git`, tag `2.0.0`)
+
+EXTERNAL SOURCES:
+  MavisSDK:
+    :git: https://github.com/OP-Solutions/Mavis-IOS-SDK.git
+    :tag: 2.0.0
+
+CHECKOUT OPTIONS:
+  MavisSDK:
+    :git: https://github.com/OP-Solutions/Mavis-IOS-SDK.git
+    :tag: 2.0.0
+
+SPEC CHECKSUMS:
+  MavisSDK: 1ef40b7f962a32f5efeaf0c9e398a57afe0bd282
+
+PODFILE CHECKSUM: 70612de6a2efd09598ef9ce4fcb8f9d09e17c0c6
+
+COCOAPODS: 1.11.0
